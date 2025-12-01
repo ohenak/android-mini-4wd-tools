@@ -3,6 +3,7 @@ package com.mini4wd.lab.core.database.di
 import android.content.Context
 import androidx.room.Room
 import com.mini4wd.lab.core.database.Mini4WDDatabase
+import com.mini4wd.lab.core.database.dao.CarProfileDao
 import com.mini4wd.lab.core.database.dao.ChassisRefDao
 import com.mini4wd.lab.core.database.dao.GearRatioRefDao
 import com.mini4wd.lab.core.database.dao.MotorRefDao
@@ -24,7 +25,9 @@ object DatabaseModule {
             context,
             Mini4WDDatabase::class.java,
             "mini4wd_lab.db"
-        ).build()
+        )
+            .addMigrations(Mini4WDDatabase.MIGRATION_1_2)
+            .build()
     }
 
     @Provides
@@ -40,5 +43,10 @@ object DatabaseModule {
     @Provides
     fun provideGearRatioRefDao(database: Mini4WDDatabase): GearRatioRefDao {
         return database.gearRatioRefDao()
+    }
+
+    @Provides
+    fun provideCarProfileDao(database: Mini4WDDatabase): CarProfileDao {
+        return database.carProfileDao()
     }
 }
