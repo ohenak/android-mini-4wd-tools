@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Garage Screen -->
+    <string name="garage_title">Garage</string>
+    <string name="garage_search_placeholder">Search profiles…</string>
+    <string name="garage_empty_title">No cars in your garage</string>
+    <string name="garage_empty_subtitle">Add your first Mini 4WD car to get started</string>
+    <string name="garage_add_car">Add Car</string>
+    <string name="garage_toggle_view">Toggle view mode</string>
+
+    <!-- Profile Edit Screen -->
+    <string name="profile_create_title">Create Profile</string>
+    <string name="profile_edit_title">Edit Profile</string>
+    <string name="profile_name_label">Profile Name</string>
+    <string name="profile_name_required">Name is required</string>
+    <string name="profile_name_not_unique">This name is already in use</string>
+
+    <!-- Chassis, Motor, Gear -->
+    <string name="profile_chassis_label">Chassis</string>
+    <string name="profile_motor_label">Motor</string>
+    <string name="profile_gear_ratio_label">Gear Ratio</string>
+    <string name="profile_select_chassis_first">Select a chassis first</string>
+
+    <!-- Motor Details -->
+    <string name="profile_section_motor">Motor Details</string>
+    <string name="profile_motor_break_in">Motor Break-In Completed</string>
+    <string name="profile_motor_run_count">Run Count</string>
+
+    <!-- Tire Configuration -->
+    <string name="profile_section_tires">Tires</string>
+    <string name="profile_tire_front">Front Tires</string>
+    <string name="profile_tire_rear">Rear Tires</string>
+    <string name="profile_tire_type">Type</string>
+    <string name="profile_tire_material">Material</string>
+    <string name="profile_tire_diameter">Diameter (mm)</string>
+
+    <!-- Wheel Configuration -->
+    <string name="profile_section_wheels">Wheels</string>
+    <string name="profile_wheel_type">Wheel Type</string>
+    <string name="profile_wheel_material">Wheel Material</string>
+
+    <!-- Other -->
+    <string name="profile_section_other">Other Settings</string>
+    <string name="profile_body_type">Body Type</string>
+    <string name="profile_body_aero_notes">Aero Notes</string>
+    <string name="profile_weight">Total Weight (g)</string>
+    <string name="profile_battery_type">Battery Type</string>
+    <string name="profile_battery_brand">Battery Brand</string>
+    <string name="profile_custom_mods">Custom Modifications</string>
+    <string name="profile_tags">Tags (comma separated)</string>
+
+    <!-- Roller/Damper/Brake -->
+    <string name="profile_section_advanced">Advanced Config</string>
+    <string name="profile_roller_config">Roller Configuration</string>
+    <string name="profile_damper_config">Mass Damper Configuration</string>
+    <string name="profile_brake_config">Brake Configuration</string>
+
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_confirm_delete">Are you sure you want to delete this profile?</string>
+</resources>
