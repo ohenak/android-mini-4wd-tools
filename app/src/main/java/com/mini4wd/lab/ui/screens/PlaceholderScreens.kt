@@ -9,11 +9,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 
 @Composable
-fun GaragePlaceholder() {
-    PlaceholderContent("Garage - Coming in M1")
-}
-
-@Composable
 fun TimerPlaceholder() {
     PlaceholderContent("Timer - Coming in M3")
 }
