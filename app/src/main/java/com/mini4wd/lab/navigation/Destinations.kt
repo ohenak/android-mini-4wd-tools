@@ -18,6 +18,15 @@ sealed class Screen(
     data object Stats : Screen("stats", "Stats", Icons.Default.Analytics)
 }
 
+object ProfileRoutes {
+    const val CREATE = "profile/create"
+    const val EDIT = "profile/edit/{profileId}"
+    const val DETAIL = "profile/detail/{profileId}"
+
+    fun editRoute(profileId: Long) = "profile/edit/$profileId"
+    fun detailRoute(profileId: Long) = "profile/detail/$profileId"
+}
+
 val bottomNavScreens = listOf(
     Screen.Garage,
     Screen.Timer,
